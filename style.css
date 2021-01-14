@@ -1,8 +1,34 @@
 
-.landing-page img{
-    width: 90%;
-}
 
+.lightgray{
+    background-color: rgb(240, 230, 230);
+    border: none;
+    border-radius: 10px;
+}
+.footer-border{
+    border: none;
+    background: transparent;
+}
+.landpage-header{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3em;
+}
+.landpage-header span{
+    color: orange;
+}
+.landing-page img{
+    width: 85%;
+}
+.land-card{
+    border: none;
+}
+.buy-link i{
+    display: inline-block;
+}
+.buy-link i span{
+    font-size: 3em;
+    /* font-weight: 800; */
+}
 
 .card .women-jacket-two{
     width: 55%;
@@ -10,11 +36,79 @@
 .card .women-jacket-three{
     width: 60%;
 }
-.mans-jacket-section{
+.mans-jacket-section,.last-section{
     margin-top: 10em;
 }
 
-/* .flexible-wrap{
-    display: flex;
-    flex-wrap: wrap;
+.mans-jacket-one{
+    width: 65%;
+}
+.mans-jacket-two{
+    width: 82%;
+}
+.man-jacket-three{
+    width: 60%;
+}
+/* body{
+    background-color: tomato;
 } */
+.seller{
+    border-radius: 15px;
+}
+.seller .childThree img{
+    width: 50%;
+}
+
+@media screen and (max-width:900px){
+    /* body{
+        background-color: blueviolet;
+    } */
+    .seller .childThree img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:895px){
+    /* body{
+            background-color: blue;
+        } */
+    
+    .seller .childThree img {
+        
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width:690px){
+    /* body{
+        background-color: yellow;
+    } */
+    .seller .child{
+        display: flex;
+        justify-content: center;
+    }
+    .seller .childThree{
+        /* background-color: red; */
+        width: 60%;
+       
+        
+    }
+    .seller .childThree img {
+        
+        width: 50%;
+    }
+    .left-part{
+        order: 2;
+    }
+    .shopping-img {
+        order: 1;
+    }
+    .child h4{
+        text-align: center;
+    }
+}
+
+
