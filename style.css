@@ -112,3 +112,11 @@
 }
 
 
+footer ul li{
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+    padding-bottom: 4px;
+}
+
