@@ -1,0 +1,20 @@
+
+.landing-page img{
+    width: 90%;
+}
+
+
+.card .women-jacket-two{
+    width: 55%;
+}
+.card .women-jacket-three{
+    width: 60%;
+}
+.mans-jacket-section{
+    margin-top: 10em;
+}
+
+/* .flexible-wrap{
+    display: flex;
+    flex-wrap: wrap;
+} */
